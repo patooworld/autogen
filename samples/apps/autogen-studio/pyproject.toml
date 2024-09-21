@@ -10,7 +10,7 @@ authors = [
 description = "AutoGen Studio"
 readme = "README.md"
 license = { file="LICENSE" }
-requires-python = ">=3.9"
+requires-python = ">=3.9, <3.13"
 classifiers = [
     "Programming Language :: Python :: 3",
     "License :: OSI Approved :: MIT License",
@@ -24,9 +24,16 @@ dependencies = [
     "typer",
     "uvicorn",
     "arxiv",
-    "pyautogen>=0.2.0"
+    "pyautogen[gemini,anthropic,mistral]==0.2.34",
+    "python-dotenv",
+    "websockets",
+    "numpy < 2.0.0",
+    "sqlmodel",
+    "psycopg",
+    "alembic",
+    "loguru",
 ]
-optional-dependencies = {web = ["fastapi", "uvicorn"]}
+optional-dependencies = {web = ["fastapi", "uvicorn"], database = ["psycopg"]}
 
 dynamic = ["version"]
 
