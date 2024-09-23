@@ -28,7 +28,7 @@
     "@docusaurus/core": "^3.1.1",
     "@docusaurus/plugin-client-redirects": "^3.1.1",
     "@docusaurus/preset-classic": "^3.1.1",
-    "@easyops-cn/docusaurus-search-local": "^0.21.1",
+    "@easyops-cn/docusaurus-search-local": "^0.44.5",
     "@mdx-js/react": "^3.0.0",
     "@svgr/webpack": "^5.5.0",
     "antd": "^5.11.5",
