@@ -31,7 +31,7 @@
     "@easyops-cn/docusaurus-search-local": "^0.44.5",
     "@mdx-js/react": "^3.0.0",
     "@svgr/webpack": "^5.5.0",
-    "antd": "^5.11.5",
+    "antd": "^5.20.4",
     "clsx": "^1.1.1",
     "docusaurus-plugin-clarity": "^2.1.0",
     "file-loader": "^6.2.0",
